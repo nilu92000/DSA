@@ -1,0 +1,78 @@
+<!--<html>
+<body>
+<h2>JavaScript Sets</h2>
+<p>Create a Set from an Array:</p>
+
+<p id="demo"></p>
+
+<script>
+
+const letters = new Set(["a","b","c"]);
+
+
+document.getElementById("demo").innerHTML = letters.size;
+</script>
+
+</body>
+</html>-->
+<!--add in sets-->
+<!--<html>
+<body>
+<h2>JavaScript Sets</h2>
+<p>Add values to a Set:</p>
+
+<p id="demo"></p>
+
+<script>
+// Create a Set
+const letters = new Set();
+
+// Add Values to the Set
+letters.add("a");
+letters.add("b");
+letters.add("c");
+
+// Display set.size
+document.getElementById("demo").innerHTML = letters.size;
+</script>
+
+</body>
+</html>-->
+<!--foreach-->
+<!--<html>
+<body>
+<h2>JavaScript Sets</h2>
+<p>forEach() calls a function for each element:</p>
+
+<p id="demo"></p>
+
+<script>
+// Create a Set
+const letters = new Set(["a","b","c"]);
+
+// List all Elements
+let text = "";
+letters.forEach (function(value) {
+  text += value + "<br>";
+})
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>-->
+<!--has()-->
+myset.add(1);
+myset.add(2);
+myset.add(3);
+myset.add(4);
+console.log(myset.size);
+console.log(myset.has(4));
+console.log(myset.delete(3));
+for(let setvalue of myset){
+    console.log(setvalue)
+}
+const arr=[1,2,3,11,13,15,16,8];
+const myset=new set(array);
+console.log(myset.size);
+
